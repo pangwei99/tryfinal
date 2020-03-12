@@ -3,10 +3,10 @@ body{background-color:#82B8D9;
 color: #ffffff;
 box-sizing: border-box;}
 
-header{background-image:url(sea4.png);
+header{background-image:url(homeimg/sea4.png);
 background-repeat: no-repeat;
 background-size: cover;
-width:1285px;
+width:1280px;
 height:700px;
 margin-left:-10px;
 margin-top: -23px;

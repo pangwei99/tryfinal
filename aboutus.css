@@ -1,0 +1,151 @@
+
+#wrapper{margin-left: auto;
+margin-right: auto;
+width:100%;
+
+background-color:#012840;
+color: #ffffff;}
+
+header{background-image:url(img/sunset.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 600px;
+}
+
+
+body{background-color:#82B8D9;
+color: #ffffff;
+box-sizing: border-box;}
+
+
+h1{margin-left:2%;
+	position: absolute;
+	top: 38%;
+	left:39%;
+  font-family: Bookman, URW Bookman L, serif;
+  letter-spacing: 4px;
+  font-variant: small-caps;
+    font-size: 40px;
+  color: #FFFFFF;
+text-shadow: 0 0 10px #FFFFFF;
+}
+
+
+nav{list-style-type: none;
+overflow: hidden;
+font-weight: bold;
+position: fixed;
+top:0;
+width:100%;
+padding-left:240px;
+word-spacing: 40px;
+background-color: #ffffff;
+opacity: 0.6;
+font-family: Didot, serif;
+font-weight:bold; }
+
+
+nav a{ display: block;
+  color: #000000;
+  text-align: center;
+  padding: 13px 13px;
+  text-decoration: none;
+  float:left;
+}
+
+.menu-bar ul{
+	display: inline-flex;
+}
+
+.active, .menu-bar ul li:hover{
+	background: #82B8D9;
+	border-radius: 3px;
+}
+
+
+h2{margin-left: 5%;
+margin-right: 5%;
+font-family: Bookman, URW Bookman L, serif;
+  letter-spacing: 4px;
+  font-variant: small-caps;
+    font-size: 25px;
+  color: #FFFFFF;
+text-shadow: 0 0 10px #FFFFFF}
+
+
+
+.descript{margin-left:10%;
+border: 2px dotted #ffffff;
+width:80%;
+margin-top: 5%;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+text-align: justify; }
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: 5%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+figcaption{font-variant: small-caps;
+font-family: Bookman, URW Bookman L, serif;
+text-align: center;}
+
+footer{
+  width:100%;
+  margin-top: 200px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+text-align: left;
+background-color:#82B8D9;
+font-family: georgia,"Times New Roman",serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav{text-decoration: none;
+color: #ffffff;}
+
+h3{margin-left: 5%;
+margin-right: 5%;}
+
+p{margin-left: 5%;
+margin-right: 5%;}
+
+
+
+
+

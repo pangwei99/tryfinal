@@ -1,13 +1,13 @@
-
 body{background-color:#82B8D9;
 color: #ffffff;
 box-sizing: border-box;}
 
 #wrapper{margin-left: auto;
 margin-right: auto;
-width:100%;}
+width:100%;
+}
 
-header{background-image:url(img/sea9.jpg);
+header{background-image:url(img/contact.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 width:100%;
@@ -15,61 +15,11 @@ height:700px;
 font-family:Apple Chancery, cursive;
 }
 
-h1{margin-left:-2%;
-	position: absolute;
-	top: 25%;
-	left:40%;
-	font-size: 40px;
-	color: #FFFFFF;
-text-shadow: 0 0 10px #FFFFFF;
-}
+h1{position: absolute;
+	top: 35%;
+	left:10%;
+	color:#82B8D9;
 
-h2{
-	margin-left:10%;
-	color: #FFFFFF;
-word-spacing: 2px;
-letter-spacing: 2px;
-font-variant: small-caps;
-font-stretch:semi-expanded;
-font-family:New Century Schoolbook, TeX Gyre Schola, serif;}
-
-
-.search-box{
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-50%);
-	background: #2f3640;
-	height:40px;
-	border-radius: 20px;
-	padding:10px;
-	width:35%;
-}
-.search-btn{
-	color:#e84118;
-	float:right;
-	width:10%;
-	height:30px;
-	border-radius: 50%;
-	color:#ffffff;
-	background: #2f3640;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-}
-
-.search-txt{
-	border:none;
-	background:none;
-	outline: none;
-	float:left;
-	padding:0;
-	color:white;
-	font-size: 16px;
-	transition: 0.4s;
-	line-height:20px;
-	width: 50%;
 }
 
 nav{list-style-type: none;
@@ -103,16 +53,18 @@ nav a{ display: block;
 	border-radius: 3px;
 }
 
-.div1{float:left;
-margin-left:10%;
-position: absolute;}
 
-.img{border-radius: 10px;
-border-style: none;}
+h2{margin-left: 5%;
+margin-right: 5%;
+margin-top: 5%;
+
+}
+
+
 
 footer{
 	width:100%;
-	margin-top: 700px;
+	margin-top: 100px;
 	padding-top: 10px;
 	padding-bottom: 0;
 text-align: left;
@@ -146,5 +98,39 @@ margin-right: 5%;}
 
 p{margin-left: 5%;
 margin-right: 5%;}
+
+
+
+.textbox{text-align:left;
+width:250px;
+height:20px;}
+
+#message{text-align:left;
+	width:250px;
+	height:100px;
+	background-color:#999999;
+opacity: 0.8;}
+
+.box{
+	border:3px ridge #ffffff;
+	width:38%;
+	margin-left: 5%;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	text-align: left;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	line-height: 2.4;
+}
+
+
+#button{float:right;}
+
+#caption{font-weight: bold;
+font-family: Optima, sans-serif;
+text-shadow:0 0 10px #FFFFFF;
+letter-spacing: 2px;}
 
 

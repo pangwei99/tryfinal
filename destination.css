@@ -1,5 +1,5 @@
 
-body{background-color:#82B8D9;
+body{background-color:#012840;
 color: #ffffff;
 box-sizing: border-box;}
 
@@ -7,13 +7,16 @@ box-sizing: border-box;}
 margin-right: auto;
 width:100%;}
 
-header{background-image:url(img/sea9.jpg);
+header{background-image:url(img/plane.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 width:100%;
 height:700px;
-font-family:Apple Chancery, cursive;
 }
+
+figcaption{font-variant: small-caps;
+font-family: Bookman, URW Bookman L, serif;
+text-align: center;}
 
 h1{margin-left:-2%;
 	position: absolute;
@@ -22,17 +25,12 @@ h1{margin-left:-2%;
 	font-size: 40px;
 	color: #FFFFFF;
 text-shadow: 0 0 10px #FFFFFF;
+font-family:Apple Chancery, cursive;
 }
 
-h2{
-	margin-left:10%;
-	color: #FFFFFF;
-word-spacing: 2px;
+h2{font-family: Palatino, URW Palladio L, serif;
 letter-spacing: 2px;
-font-variant: small-caps;
-font-stretch:semi-expanded;
-font-family:New Century Schoolbook, TeX Gyre Schola, serif;}
-
+margin-left:5%;}
 
 .search-box{
 	position:absolute;
@@ -43,13 +41,13 @@ font-family:New Century Schoolbook, TeX Gyre Schola, serif;}
 	height:40px;
 	border-radius: 20px;
 	padding:10px;
-	width:35%;
+	width:400px;
 }
 .search-btn{
 	color:#e84118;
 	float:right;
-	width:10%;
-	height:30px;
+	width:40px;
+	height: 28px;
 	border-radius: 50%;
 	color:#ffffff;
 	background: #2f3640;
@@ -69,7 +67,7 @@ font-family:New Century Schoolbook, TeX Gyre Schola, serif;}
 	font-size: 16px;
 	transition: 0.4s;
 	line-height:20px;
-	width: 50%;
+	width: 240px;
 }
 
 nav{list-style-type: none;
@@ -103,22 +101,16 @@ nav a{ display: block;
 	border-radius: 3px;
 }
 
-.div1{float:left;
-margin-left:10%;
-position: absolute;}
-
-.img{border-radius: 10px;
-border-style: none;}
 
 footer{
 	width:100%;
-	margin-top: 700px;
+	margin-top: 50px;
 	padding-top: 10px;
-	padding-bottom: 0;
 text-align: left;
-background-color:#012840;
+background-color:#82B8D9;
 font-family: georgia,"Times New Roman",serif;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -138,7 +130,7 @@ font-family: georgia,"Times New Roman",serif;
   clear: both;
 }
 
-.nav{text-decoration: none;
+.nav1{text-decoration: none;
 color: #ffffff;}
 
 h3{margin-left: 5%;
@@ -148,3 +140,37 @@ p{margin-left: 5%;
 margin-right: 5%;}
 
 
+
+.descript{margin-left: 130px;
+border: 2px solid #ffffff;
+width:1000px;
+padding-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 20px;
+text-align: justify; }
+
+
+.link{text-decoration: none;
+color:lightgrey;
+margin-left: 80%;
+font-family: Bookman, URW Bookman L, serif;
+} 
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

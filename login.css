@@ -1,0 +1,118 @@
+
+body{background-color:#012840;
+color: #ffffff;
+box-sizing: border-box;}
+
+#wrapper{margin-left: auto;
+margin-right: auto;
+width:100%;
+}
+
+header{background-image:url(img/busancity.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;
+height:500px;
+}
+
+h1{position: absolute;
+	top: 30%;
+	left:6%;
+	color:#ffffff;
+	font-family:Didot, serif;
+	font-variant: small-caps;
+	letter-spacing: 3px;
+
+}
+nav{list-style-type: none;
+overflow: hidden;
+font-weight: bold;
+position: fixed;
+top:0;
+width:100%;
+padding-left:240px;
+word-spacing: 40px;
+background-color: #ffffff;
+opacity: 0.6;
+font-family: Didot, serif;
+font-weight:bold; }
+
+
+nav a{ display: block;
+  color: #000000;
+  text-align: center;
+  padding: 13px 13px;
+  text-decoration: none;
+  float:left;
+}
+.menu-bar ul{
+	display: inline-flex;
+}
+
+.active, .menu-bar ul li:hover{
+	background: #82B8D9;
+	border-radius: 3px;
+}
+
+h2{margin-left: 5%;
+margin-right: 5%;
+margin-top: 5%;}
+
+legend{margin-left: 40%;}
+
+label{font-family:Bookman, URW Bookman L, serif;}
+
+footer{
+	width:100%;
+	margin-top: 100px;
+	padding-top: 10px;
+text-align: left;
+background-color:#82B8D9;
+font-family: georgia,"Times New Roman",serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav{text-decoration: none;
+color: #ffffff;}
+
+h3{margin-left: 5%;
+margin-right: 5%;}
+
+p{margin-left: 5%;
+margin-right: 5%;}
+
+input{text-align:left;
+width:150px;
+height:15px;}
+
+#message{text-align:left;
+	width:250px;
+	height:100px;
+	background-color:#999999;
+opacity: 0.8;}
+
+.form{text-align: left;
+	width:45%;
+margin-top: 5%;
+margin-left: 5%;}
+
+
+#button{float:left;}
+

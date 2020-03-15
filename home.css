@@ -103,8 +103,11 @@ nav a{ display: block;
 	border-radius: 3px;
 }
 
+
+.div2{position: relative;}
+
 .div1{float:left;
-margin-left:10%;
+margin-left:13%;
 position: absolute;}
 
 .img{border-radius: 10px;

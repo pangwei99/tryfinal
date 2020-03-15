@@ -2,7 +2,6 @@
 #wrapper{margin-left: auto;
 margin-right: auto;
 width:100%;
-
 background-color:#012840;
 color: #ffffff;}
 
@@ -106,17 +105,18 @@ text-align: justify; }
 
 figcaption{font-variant: small-caps;
 font-family: Bookman, URW Bookman L, serif;
-text-align: center;}
+text-align: left;}
 
 footer{
   width:100%;
   margin-top: 200px;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom:0;
 text-align: left;
 background-color:#82B8D9;
 font-family: georgia,"Times New Roman",serif;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -144,8 +144,3 @@ margin-right: 5%;}
 
 p{margin-left: 5%;
 margin-right: 5%;}
-
-
-
-
-

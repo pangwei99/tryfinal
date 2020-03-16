@@ -9,7 +9,7 @@ width:100%;}
 
 header{background-image:url(img/sea9.jpg);
 background-repeat: no-repeat;
-background-size: cover;
+
 width:100%;
 height:700px;
 font-family:Apple Chancery, cursive;
@@ -74,8 +74,6 @@ font-family:New Century Schoolbook, TeX Gyre Schola, serif;}
 
 nav{list-style-type: none;
 overflow: hidden;
-padding-left: 20%;
-
 font-weight: bold;
 position: fixed;
 top:0;
@@ -90,9 +88,11 @@ font-weight:bold; }
 nav a{ display: block;
   color: #000000;
   text-align: center;
-  padding: 13px 13px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   text-decoration: none;
   float:left;
+  align-content: center;
 }
 
 .menu-bar ul{
@@ -106,18 +106,20 @@ nav a{ display: block;
 
 
 
-#div1{float:left;
+#div1{
 margin-left:10%;
 margin-right: 10%;
 position: absolute;
-margin-top: 1%;}
+margin-top: 1%;
+align-content: center;}
 
 
-#div3{float:left;
+#div3{
 margin-right: 10%;	
 margin-left:10%;
 position: absolute;
 margin-top: 28%;
+align-content: center;
 }
 
 

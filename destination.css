@@ -101,7 +101,8 @@ nav a{ display: block;
 	border-radius: 3px;
 }
 
-.descriptbox{margin-left: 130px;
+.descriptbox{margin-left:10%;
+	margin-right: 10%;
 border: 2px solid #ffffff;
 width:1000px;
 padding-top: 20px;

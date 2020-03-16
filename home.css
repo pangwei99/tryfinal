@@ -108,11 +108,13 @@ nav a{ display: block;
 
 #div1{float:left;
 margin-left:10%;
+margin-right: 10%;
 position: absolute;
 margin-top: 1%;}
 
 
 #div3{float:left;
+margin-right: 10%;	
 margin-left:10%;
 position: absolute;
 margin-top: 28%;

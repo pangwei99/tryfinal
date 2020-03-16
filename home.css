@@ -87,10 +87,12 @@ font-weight:bold; }
 
 nav a{ display: block;
   color: #000000;
+  text-align: center;
   padding-top: 13px;
   padding-bottom: 13px;
   text-decoration: none;
-  text-align: center;
+  float:left;
+  align-content: center;
 }
 
 .menu-bar ul{

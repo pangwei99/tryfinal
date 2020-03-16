@@ -90,6 +90,7 @@ nav a{ display: block;
   text-align: center;
   padding-top: 13px;
   padding-bottom: 13px;
+  padding-left: 20px;
   text-decoration: none;
   float:left;
   align-content: center;
@@ -105,23 +106,12 @@ nav a{ display: block;
 }
 
 
-
 #div1{
 margin-left:10%;
 margin-right: 10%;
 position: absolute;
 margin-top: 1%;
 align-content: center;}
-
-
-#div3{
-margin-right: 10%;	
-margin-left:10%;
-position: absolute;
-margin-top: 28%;
-align-content: center;
-}
-
 
 .img{border-radius: 10px;
 border-style: none;}

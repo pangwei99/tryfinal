@@ -22,7 +22,7 @@ background-size: 100% 100%}
 h1{margin-left:-2%;
 	position: absolute;
 	top: 25%;
-	left:43%;
+	left:40%;
 	font-size: 30px;
 	color: #FFFFFF;
 text-shadow: 0 0 10px #FFFFFF;
@@ -48,7 +48,7 @@ font-family:New Century Schoolbook, TeX Gyre Schola, serif;}
 	height:40px;
 	border-radius: 20px;
 	padding:10px;
-	width:35%;
+	width:400px;
 }
 .search-btn{
 	color:#e84118;

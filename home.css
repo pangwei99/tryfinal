@@ -18,8 +18,8 @@ font-family:Apple Chancery, cursive;
 h1{margin-left:-2%;
 	position: absolute;
 	top: 25%;
-	left:40%;
-	font-size: 40px;
+	left:43%;
+	font-size: 30px;
 	color: #FFFFFF;
 text-shadow: 0 0 10px #FFFFFF;
 }
@@ -74,11 +74,12 @@ font-family:New Century Schoolbook, TeX Gyre Schola, serif;}
 
 nav{list-style-type: none;
 overflow: hidden;
+padding-left: 20%;
+
 font-weight: bold;
 position: fixed;
 top:0;
 width:100%;
-padding-left:240px;
 word-spacing: 40px;
 background-color: #ffffff;
 opacity: 0.6;
@@ -104,11 +105,19 @@ nav a{ display: block;
 }
 
 
-.div2{position: relative;}
 
-.div1{float:left;
-margin-left:15%;
-position: absolute;}
+#div1{float:left;
+margin-left:10%;
+position: absolute;
+margin-top: 1%;}
+
+
+#div3{float:left;
+margin-left:10%;
+position: absolute;
+margin-top: 28%;
+}
+
 
 .img{border-radius: 10px;
 border-style: none;}

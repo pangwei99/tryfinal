@@ -101,6 +101,15 @@ nav a{ display: block;
 	border-radius: 3px;
 }
 
+.descriptbox{margin-left: 130px;
+border: 2px solid #ffffff;
+width:1000px;
+padding-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 20px;
+text-align: justify; }
+
 
 footer{
 	width:100%;
@@ -141,7 +150,7 @@ margin-right: 5%;}
 
 
 
-.descript{margin-left: 130px;
+ipt{margin-left: 130px;
 border: 2px solid #ffffff;
 width:1000px;
 padding-top: 20px;
